@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+<title id="title">Fioenix · FINOLABS</title>
+<desc id="desc">Tools, language, research. An abstract geometric spark connects three paths.</desc>
+<rect width="1200" height="270" rx="12" fill="#151d23"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="52" y="56" font-size="16" font-weight="700" letter-spacing="4" fill="#a8b4b8">FINOLABS</text>
+<text x="48" y="159" font-size="90" font-weight="700" letter-spacing="-4" fill="#e8ede8">Fioenix</text>
+<text x="53" y="218" font-size="17" letter-spacing="2" fill="#a8b4b8">TOOLS / LANGUAGE / RESEARCH</text>
+</g>
+<g fill="none" stroke="#33434a" stroke-width="2">
+<path d="M720 64h158l71 71h185M690 135h444M720 206h158l71-71"/>
+<path d="M998 46v178M1070 46v178" opacity=".45"/>
+<circle cx="720" cy="64" r="5" fill="#151d23"/><circle cx="690" cy="135" r="5" fill="#151d23"/><circle cx="720" cy="206" r="5" fill="#151d23"/>
+</g>
+<path d="M949 93l12 30 30 12-30 12-12 30-12-30-30-12 30-12Z" fill="#ed9877"/>
+<circle cx="1134" cy="135" r="5" fill="#ed9877"/>
+</svg>
