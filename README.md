@@ -21,7 +21,7 @@ Delegate code, image generation and general tasks from Claude Code or Codex to t
 /plugin install agybird@agybird
 ```
 
-### [Vietnamizer](https://github.com/fioenix/vietnamizer) &nbsp;[![source version](https://img.shields.io/badge/source-0.13.2-7FE2CE)](https://github.com/fioenix/vietnamizer/commit/07c3c47e1f35c436ae029ceefb842faf69269b37)
+### [Vietnamizer](https://github.com/fioenix/vietnamizer) &nbsp;[![release](https://img.shields.io/github/v/release/fioenix/vietnamizer?label=&color=7FE2CE)](https://github.com/fioenix/vietnamizer/releases/latest)
 
 Meaning-first Vietnamese editing for AI drafts, literal translations and workplace writing. Keep the source voice by default; adapt to supplied writing samples when explicitly requested, with checks for added facts, lost qualifications and unnecessary rewrites.
 
