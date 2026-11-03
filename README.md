@@ -8,7 +8,7 @@
 
 **Building with [FINOLABS](https://github.com/finolabs) · Ho Chi Minh City, Vietnam.**
 
-I build open-source Agent Skills, CLIs and MCP servers that make AI agents useful for real work: delegating across providers, writing natural Vietnamese, structuring ideas, and running projects. They plug into Claude Code and Codex; Markmap Skills and Huly Skill also run on Google Antigravity.
+I build open-source Agent Skills, CLIs and MCP servers that make AI agents useful for real work: delegating across providers, writing natural Vietnamese, structuring ideas, and running projects. They plug into Claude Code and Codex, and the FINOLABS plugins also install on Google Antigravity.
 
 ## Agent tools
 
@@ -16,9 +16,18 @@ I build open-source Agent Skills, CLIs and MCP servers that make AI agents usefu
 
 Delegate code, image generation and general tasks from Claude Code or Codex to the official Google Antigravity CLI (`agy`), using your own Gemini subscription. No extracted credentials, no private APIs. Unofficial; not affiliated with Google.
 
-```text
-/plugin marketplace add fioenix/agybird
-/plugin install agybird@agybird
+```bash
+claude plugin marketplace add finolabs/plugins
+claude plugin install agybird@finolabs
+```
+
+### [FINOLABS Vibecode](https://github.com/finolabs/finolabs-vibecode) &nbsp;[![release](https://img.shields.io/github/v/release/finolabs/finolabs-vibecode?label=&color=7FE2CE)](https://github.com/finolabs/finolabs-vibecode/releases/latest)
+
+Engineering practice for AI coding agents: routing, delegation, review and security gates, verification, versioning and open source readiness.
+
+```bash
+claude plugin marketplace add finolabs/plugins
+claude plugin install finolabs-vibecode@finolabs
 ```
 
 ### [Vietnamizer](https://github.com/finolabs/vietnamizer) &nbsp;[![release](https://img.shields.io/github/v/release/finolabs/vietnamizer?label=&color=7FE2CE)](https://github.com/finolabs/vietnamizer/releases/latest)
@@ -28,16 +37,23 @@ Meaning-first Vietnamese editing for AI drafts, literal translations and workpla
 **Evidence, with limits:** the matched Codex regression comparison improved from **10/12 to 12/12 cases** between 0.12.0 and 0.12.1. These are development cases, not an independent quality estimate. Reference-voice pilots remain mixed; there are no independent human ratings yet. See [regression results](https://github.com/finolabs/vietnamizer/blob/main/specs/018-mr-version-comparison/results.md), the [0.13.2 voice pilot](https://github.com/finolabs/vietnamizer/blob/main/specs/025-section-voice-pilot/results.md), and [skills.sh](https://skills.sh/fioenix/vietnamizer/vietnamizer).
 
 ```bash
-npx skills add fioenix/vietnamizer --skill vietnamizer
+claude plugin marketplace add finolabs/plugins
+claude plugin install vietnamizer@finolabs
+```
+
+Or as a plain skill, one path per agent:
+
+```bash
+npx skills add finolabs/vietnamizer --skill vietnamizer
 ```
 
 ### [Markmap Skills](https://github.com/finolabs/markmap-skills) &nbsp;[![release](https://img.shields.io/github/v/release/finolabs/markmap-skills?label=&color=7FE2CE)](https://github.com/finolabs/markmap-skills/releases/latest)
 
 Turn notes and documents into editable Markdown and interactive Markmap mindmaps. Branch grouping, depth and concise labels are generation guidelines. Self-contained HTML requires Node.js and `markmap-cli`; the CDN template requires internet access. No background daemon. See [outputs and requirements](https://github.com/finolabs/markmap-skills#outputs-and-requirements).
 
-```text
-/plugin marketplace add fioenix/markmap-skills
-/plugin install markmap-skills@fioenix-plugins
+```bash
+claude plugin marketplace add finolabs/plugins
+claude plugin install markmap-skills@finolabs
 ```
 
 ### [Huly Skill](https://github.com/fioenix/huly-skill) &nbsp;[![release](https://img.shields.io/github/v/release/fioenix/huly-skill?label=&color=7FE2CE)](https://github.com/fioenix/huly-skill/releases/latest)
@@ -48,8 +64,11 @@ A CLI, MCP server ([`@fioenix/huly-mcp`](https://www.npmjs.com/package/@fioenix/
 npx skills add fioenix/huly-skill
 ```
 
-> **On Codex?** For a fresh installation without an existing `agybird` marketplace, register the shared **Finolabs** catalog with `codex plugin marketplace add fioenix/agybird`, then install with `codex plugin add <name>@Finolabs`.
-> Already registered the `agybird` marketplace? Follow the [migration and rollback guide](https://github.com/finolabs/agybird/blob/main/docs/migration.md) before changing registrations.
+> **On Codex?** Register the shared FINOLABS catalog once with `codex plugin marketplace add finolabs/plugins`, then install with `codex plugin add <name>@finolabs`, for example `codex plugin add agybird@finolabs`.
+>
+> **On Antigravity?** Install each plugin from its repository: `agy plugin install https://github.com/finolabs/<name>`.
+>
+> Installed from an older catalog (`agybird@Finolabs`, `agybird@agybird`, `markmap-skills@fioenix-plugins`)? Follow the [migration and rollback guide](https://github.com/finolabs/agybird/blob/main/docs/migration.md) before changing registrations.
 
 ## Research
 
