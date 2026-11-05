@@ -23,7 +23,7 @@ claude plugin install agybird@finolabs
 
 ### [FINOLABS Vibecode](https://github.com/finolabs/finolabs-vibecode) &nbsp;[![release](https://img.shields.io/github/v/release/finolabs/finolabs-vibecode?label=&color=7FE2CE)](https://github.com/finolabs/finolabs-vibecode/releases/latest)
 
-Engineering practice for AI coding agents: routing, delegation, review and security gates, verification, versioning and open source readiness.
+Engineering practice for AI coding agents: routing, delegation, review and security gates, verification, versioning, agent scans and mode settings.
 
 ```bash
 claude plugin marketplace add finolabs/plugins
@@ -86,4 +86,4 @@ Fioenix and FINOLABS build and maintain these projects. [Finos (@im.finos)](http
 
 ---
 
-[All public repositories](https://github.com/fioenix?tab=repositories&type=public) · [FINOLABS](https://github.com/finolabs) · [fioenix@finolabs.io](mailto:fioenix@finolabs.io)
+[All public repositories](https://github.com/fioenix?tab=repositories&type=public) · [FINOLABS](https://github.com/finolabs) · [Developer hub](https://finolabs.github.io) · [fioenix@finolabs.io](mailto:fioenix@finolabs.io)
