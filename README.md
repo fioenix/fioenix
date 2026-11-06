@@ -86,4 +86,4 @@ Fioenix and FINOLABS build and maintain these projects. [Finos (@im.finos)](http
 
 ---
 
-[All public repositories](https://github.com/fioenix?tab=repositories&type=public) · [FINOLABS](https://github.com/finolabs) · [Developer hub](https://finolabs.github.io) · [fioenix@finolabs.io](mailto:fioenix@finolabs.io)
+[All public repositories](https://github.com/fioenix?tab=repositories&type=public) · [FINOLABS](https://github.com/finolabs) · [Developer hub](https://finolabs.io) · [fioenix@finolabs.io](mailto:fioenix@finolabs.io)
