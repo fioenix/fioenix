@@ -8,9 +8,24 @@
 
 **Building with [FINOLABS](https://github.com/finolabs) · Ho Chi Minh City, Vietnam.**
 
-I build open-source Agent Skills, CLIs and MCP servers that make AI agents useful for real work: delegating across providers, writing natural Vietnamese, structuring ideas, and running projects. They plug into Claude Code and Codex, and the FINOLABS plugins also install on Google Antigravity.
+I build open-source Agent Skills, CLIs and MCP servers that make AI agents useful for real work: delegating across providers, writing natural Vietnamese, structuring ideas, and running projects. They plug into Claude Code and Codex, and the FINOLABS plugins also install on Google Antigravity. vibebiz runs on Claude Cowork for retail business leaders.
 
 ## Agent tools
+
+### [FINOLABS Vibecode](https://github.com/finolabs/finolabs-vibecode) &nbsp;[![release](https://img.shields.io/github/v/release/finolabs/finolabs-vibecode?label=&color=7FE2CE)](https://github.com/finolabs/finolabs-vibecode/releases/latest)
+
+25 skills and 3 agents (fnl-reviewer, fnl-security-reviewer, fnl-navigator) for review routing, verification, setup, run hygiene and quota on demand.
+
+```bash
+claude plugin marketplace add finolabs/plugins
+claude plugin install finolabs-vibecode@finolabs
+```
+
+### [vibebiz](https://github.com/finolabs/vibebiz) &nbsp;[![release](https://img.shields.io/github/v/release/finolabs/vibebiz?label=&color=7FE2CE)](https://github.com/finolabs/vibebiz/releases/latest)
+
+A Claude Cowork plugin that works as a product owner for retail leaders. It interviews you until a vague idea is clear, challenged and measurable, then packages it as a board deck and a tech PRD with a Spec Kit-compatible requirement file. Not a coding tool. Source-available: free for personal and noncommercial use under PolyForm Noncommercial 1.0.0; businesses need a [commercial license](https://github.com/finolabs/vibebiz/blob/main/COMMERCIAL-LICENSE.md).
+
+Download `vibebiz.plugin` from the [latest release](https://github.com/finolabs/vibebiz/releases/latest), then in Claude Cowork open Settings › Plugins › Upload plugin.
 
 ### [Agybird](https://github.com/finolabs/agybird) &nbsp;[![release](https://img.shields.io/github/v/release/finolabs/agybird?label=&color=7FE2CE)](https://github.com/finolabs/agybird/releases/latest)
 
@@ -19,15 +34,6 @@ Delegate code, image generation and general tasks from Claude Code or Codex to t
 ```bash
 claude plugin marketplace add finolabs/plugins
 claude plugin install agybird@finolabs
-```
-
-### [FINOLABS Vibecode](https://github.com/finolabs/finolabs-vibecode) &nbsp;[![release](https://img.shields.io/github/v/release/finolabs/finolabs-vibecode?label=&color=7FE2CE)](https://github.com/finolabs/finolabs-vibecode/releases/latest)
-
-17 skills and 3 agents (fnl-reviewer, fnl-security-reviewer, fnl-navigator) for review routing, verification, setup, run hygiene and quota on demand.
-
-```bash
-claude plugin marketplace add finolabs/plugins
-claude plugin install finolabs-vibecode@finolabs
 ```
 
 ### [Vietnamizer](https://github.com/finolabs/vietnamizer) &nbsp;[![release](https://img.shields.io/github/v/release/finolabs/vietnamizer?label=&color=7FE2CE)](https://github.com/finolabs/vietnamizer/releases/latest)
